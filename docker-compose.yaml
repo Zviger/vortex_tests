@@ -3,4 +3,4 @@ services:
   vortex:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./docker/Dockerfile
