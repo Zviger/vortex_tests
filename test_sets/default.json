@@ -1,0 +1,6 @@
+[
+  {
+    "test_path": "benchmarks/opencl/vecadd",
+    "make_commands": ["run-simx"]
+  }
+]

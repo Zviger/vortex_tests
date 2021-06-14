@@ -4,3 +4,6 @@ services:
     build:
       context: .
       dockerfile: ./docker/Dockerfile
+    command: "./sleep.sh"
+    volumes:
+      - ./vortex/benchmarks:/vortexgpgpu/vortex/benchmarks
